@@ -10,10 +10,6 @@
   
         }
 ?>
-    $user=$_POST['email'];
-    $pass-$POST['pass'];
-    $sql="INSERT into 'login'('userid','password')values('$user','$pass');
-    mysqli_query($con,$sql);
 
 <html>
     <head>
